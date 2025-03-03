@@ -112,5 +112,18 @@ app/
 
 
 
+## Difference Between MVP and MVC (Simple Points)
+
+| Feature | MVP (Model-View-Presenter) | MVC (Model-View-Controller) |
+|---------|---------------------------|-----------------------------|
+| **Communication** | View and Model interact through Presenter | View interacts directly with Model |
+| **Responsibility** | Presenter handles UI logic separately | Controller handles both UI and business logic |
+| **Testability** | Easier to test as View and Model are separate | Harder to test due to direct View-Model connection |
+| **Complexity** | More structured, good for large apps | Simpler, better for small apps |
+| **Dependency** | View is dependent on Presenter | View is dependent on Controller |
+
+---
+
+
 🚀 **Happy Coding!** 😊
 
