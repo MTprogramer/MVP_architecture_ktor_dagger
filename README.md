@@ -4,6 +4,12 @@ This is a simple Android app built with **Jetpack Compose**, **Kotlin**, **Dagge
 
 ---
 
+## MVP Structure
+![Work flow image](images/image_1.png)
+
+## MVP layers
+![Work flow image](images/image_2.png)
+
 ## 📌 What is MVP in Simple Words?
 MVP is a way to structure your app’s code into three main parts: **Model, View, and Presenter**. Think of it like a team where each member has a specific job:
 
@@ -114,13 +120,13 @@ app/
 
 ## Difference Between MVP and MVC (Simple Points)
 
-| Feature | MVP (Model-View-Presenter) | MVC (Model-View-Controller) |
-|---------|---------------------------|-----------------------------|
-| **Communication** | View and Model interact through Presenter | View interacts directly with Model |
-| **Responsibility** | Presenter handles UI logic separately | Controller handles both UI and business logic |
+| Feature | MVP (Model-View-Presenter)                    | MVC (Model-View-Controller) |
+|---------|-----------------------------------------------|-----------------------------|
+| **Communication** | View and Model interact through Presenter     | View interacts directly with Model |
+| **Responsibility** | Presenter handles UI logic separately         | Controller handles both UI and business logic |
 | **Testability** | Easier to test as View and Model are separate | Harder to test due to direct View-Model connection |
-| **Complexity** | More structured, good for large apps | Simpler, better for small apps |
-| **Dependency** | View is dependent on Presenter | View is dependent on Controller |
+| **Complexity** | More structured, good for medium apps         | Simpler, better for small apps |
+| **Dependency** | View is dependent on Presenter                | View is dependent on Controller |
 
 ---
 
